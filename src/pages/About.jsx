@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar" 
 import about from '../assets/aboutpic.jpg'
 import building from '../assets/building.jpg'
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 import {FaEye, FaBullseye, FaStar} from 'react-icons/fa'
 import { FaShieldAlt,FaStarAndCrescent } from "react-icons/fa"
 import Principal_greetings from '../components/Principal _greetings'
