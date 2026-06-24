@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import {FaEye, FaBullseye, FaStar} from 'react-icons/fa'
 import { FaShieldAlt,FaStarAndCrescent } from "react-icons/fa"
 import Principal_greetings from '../components/Principal _greetings'
-import principal from '../assets/Principal.jpg'
+import principal from '../assets/principal.jpg'
 function About() {
     return(
 <>
