@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root{
+  --primary: #1a237e;
+  --secondary: #ffc107;
+  --background: #f5f5f5;
+  --text: #212121;
+  --white: #ffffff;
+}
+.font-family{
+  font-family: Playfair Display;
+}
+
+.navbar-title{
+background-color: var(--background);
+color: var(--text)
+}
+.academy{
+  color: var(--secondary);
+}
+.btn{
+background-color: var(--secondary);
+color :var(--white)
+}
+.btn:hover{
+  background-color: goldenrod;
+  color: #f5f5f5;
+}
+.scrolling-text{
+  display:inline-block;
+  animation: ticker 20s linear infinite;
+}
+    @keyframes ticker {
+       0%{
+        transform: translate(50%)
+      }
+      100%{
+        transform: translate(-100%)
+      }
+    }
+.admin{
+  background-image: url(./assets/Admin.jpg);
+}
+            
+.student{
+  background-image: url(./assets/1.jpg);
+}
+.hero{
+  background-image: url(./assets/aboutpic.jpg);
+}
+.main{
+  background-image: url(./assets/contacts.jpg);
+}
