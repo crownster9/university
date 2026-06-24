@@ -8,7 +8,7 @@ function Footer() {
     <div className="grid  grid-cols-1 md:grid-cols-2 bg-[#1a237e]  gap-8 lg:grid-cols-3">
    <div className="">
    <div >
-        <img src="../src/assets/logo.png" alt="logo" width="200" className="mx-auto"/>
+        <img src="/logo.png" alt="logo" width="200" className="mx-auto"/>
         <p className="font-bold text-4xl text-white text-center font-serif">Crestview</p
         ><div className="font-bold text-2xl text-center font-serif academy">University</div>
      </div>
