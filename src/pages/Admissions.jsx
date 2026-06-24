@@ -13,10 +13,11 @@ function Admissions(){
                 <FaStarOfDavid size={16} className='text-yellow-500  animate-pulse'/>
                 <span className="text-yellow-500 lg:text-sm text-[11px] leading-loose font-bold uppercase">admissions portal 2026</span>
             </div>
-            <div className="text-center pt-8 mx-auto ">
+            <div className="text-center pt-8 space-y-0  px-14 mx-auto ">
                 <p className="uppercase text-4xl text-white font-serif tracking-widest font-bold">
-                    cultivate your  <br className='hidden md:block'/><span className="font-thin italic text-yellow-500">Highest standard</span>
+                    cultivate your
                 </p>
+                <div className="font-thin uppercase text-4xl font-serif px-10 text-center flex justify-center italic text-yellow-500">Highest standard</div>
             </div>
             <p className="text-center text-white/50 leading-7 tracking-wide w-2/3 mx-auto pt-5">
                     We prepare individuals to stand apart. Explore dynamic scholarship criteria, 
