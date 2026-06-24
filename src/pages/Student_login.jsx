@@ -10,7 +10,7 @@ function Student_login() {
 <section className=" ">
 <div className="h-screen bg-cover bg-center student">
 <div className="">
-<img src="../src/assets/logo.png" alt="logo" width="150" className="mx-auto"/>
+<img src="/logo.png" alt="logo" width="150" className="mx-auto"/>
 </div>
 
 <div className="inset-8 inset-y-35 max-w-md bg-gray-100 flex justify-center items-center m-auto absolute w-1/2"></div>

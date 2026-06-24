@@ -15,7 +15,7 @@ function Navbar() {
      <nav className="fixed z-50 border-b-yellow-500 border-b-4 w-full navbar-title px-1">
      <div className="flex justify-between">
      <div className="flex items-center">
-        <img src="../src/assets/logo.png" alt="logo" width="50"/>
+        <img src="/logo.png" alt="logo" width="50"/>
         <p className="font-bold font-serif">Crestview <span className="academy">University</span></p>
      </div>
      <ul className="hidden text-sm md:flex md:justify-around space-x-2 items-center">
@@ -46,7 +46,7 @@ function Navbar() {
      <div className="">
         
         <div className="flex items-center">
-        <img src="../src/assets/logo.png" alt="logo" width="50"/>
+        <img src="/logo.png" alt="logo" width="50"/>
         <p className="font-bold text-white font-serif">Crestview University</p>
 
     </div>

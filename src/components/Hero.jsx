@@ -10,7 +10,7 @@ return (
       className="opacity-100 top-0 left-0 w-full  h-full object-cover">
       <source src={hero} type="video/mp4"/></video>
     </div>
-    <div className="bg-black opacity-40 absolute inset-0 flex flex-col justify-center items-center text-center px-4 ">
+    <div className="bg-black opacity-40 absolute inset-0 h-screen mt-10  ">
     
      </div>
     <div className="font-serif absolute inset-0 flex flex-col justify-center items-center text-center px-4 ">
