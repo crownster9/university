@@ -16,7 +16,7 @@ function Admin_login() {
 
 <div className="inset-8 inset-y-35 max-w-md  bg-white opacity-25 flex justify-center items-center m-auto absolute w-1/2"></div>
 <div className="font-serif absolute inset-x-0 flex flex-col justify-center text-center">
-        <h1 className="text-white font-bold text-md">CRESTVIEW Admin Login</h1>
+        <h1 className="text-white font-bold text-md"> Admin Login</h1>
 
     <div className="boder-b-2 border-yellow-500 border w-1/4 mt-4 mx-auto "></div>
     <form  className=" mt-5 space-y-5">
@@ -38,7 +38,7 @@ function Admin_login() {
     </div>
      <button className='cursor-pointer bg-blue-700 text-white max-w-sm w-1/3 py-1 active:bg-blue-900 active:text-white hover:border-black hover:border-2' type="button"><Link to="/admin_page">Login</Link> </button>
     </form>
-    <p className="mt-5 text-white  flex px-15 md:font-bold text-xs  md:px-10 mx-auto flex-wrap max-w-86">
+    <p className="mt-5 text-white flex  px-15 md:font-bold text-xs  md:px-10 mx-auto flex-wrap max-w-75">
         Crestview Version 2.0 Build 202020 
         best view on mozilla/firefox/microsoft edge/google chrome broswers
     </p>

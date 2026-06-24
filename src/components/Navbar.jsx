@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <>
-     <nav className="fixed z-50 border-b-yellow-500 border-b-4 w-full navbar-title px-1">
+     <nav className="fixed overflow-hidden z-50 border-b-yellow-500 border-b-4 w-full navbar-title px-1 pr-4">
      <div className="flex justify-between">
      <div className="flex items-center">
         <img src="/logo.png" alt="logo" width="50"/>
@@ -36,7 +36,7 @@ function Navbar() {
         <li className="cursor-pointer font-semibold hover:text-gray-500 active:text-shadow-yellow-500 hover:font-normal"><Link to="/contact">Contact</Link></li>
      </ul>
      <button className="hidden md:flex my-auto py-1 px-3 rounded-sm cursor-pointer btn font-semibold">Login</button>
-     <button className=" md:hidden font-bold text-2xl cursor-pointer" onClick={toggleMenu}> <GiHamburgerMenu size={24}/> </button>
+     <button className=" md:hidden font-bold text-2xl  cursor-pointer" onClick={toggleMenu}> <GiHamburgerMenu size={24}/> </button>
      </div>
      </nav>
 
