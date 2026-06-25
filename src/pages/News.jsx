@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import img from "../assets/good.avif";
 import { FaArrowRight } from 'react-icons/fa';
 import bicycle from "../assets/bicycle.avif"
+import and from  "../assets/2nd.jpg"
 function News(){
     return(
         <>
@@ -68,7 +69,7 @@ function News(){
           <div className="mt-5 w-[90%] mx-auto bg-[#FFFFFF] relative border-black border group">
         
         <div className="overflow-hidden">
-        <img src={img} alt="img" className="group-hover:scale-120  w-100% transition-transform duration-1000"/>
+        <img src={and} alt="img" className="group-hover:scale-120  w-100% transition-transform duration-1000"/>
         <div className="absolute bg-[#1a237e] w-25 h-8 z-5 top-8 left-6 px-4 uppercase text-yellow-500 text-sm font-bold items-center flex">research</div>
         </div>
         <div className="">
