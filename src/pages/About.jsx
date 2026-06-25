@@ -69,7 +69,7 @@ function About() {
         <div className="absolute  -translate-y-82">
      <div className=" pl-10 flex items-center text-white  ">
      < FaShieldAlt size={40} className="text-yellow-500"/>
-     <h2 className="pl-6 text-white font-serif text-3xl tracking-widest font-bold">Integrity</h2>
+     <h2 className="pl-2 text-white font-serif text-3xl font-bold">Integrity</h2>
       
      </div>
      <div className="flex mt-6 pl-10 flex-wrap flex-row container max-w-5/7 lg:w-1/2 px-4 md:pr-27 lg:pr-35 ">
@@ -83,7 +83,7 @@ function About() {
         <div className="absolute  -translate-y-82">
      <div className=" pl-10 flex items-center text-white  ">
      < FaStar size={40} className="text-yellow-500"/>
-     <h2 className="pl-6 text-white font-serif text-3xl tracking-widest font-bold ">Innovation</h2>
+     <h2 className="pl-2 text-white font-serif text-3xl font-bold ">Innovation</h2>
      
      </div>
      <p className="flex max-w-5/7 w-5/7 pl-10 text-gray-400 mt-6 px-4 flex-wrap">We believe that Knowlege without ethics is a hollow shell.
