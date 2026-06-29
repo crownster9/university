@@ -98,7 +98,7 @@ function News(){
         <img src={bicycle} alt="img" className="group-hover:scale-120  w-100% transition-transform duration-1000"/>
         <div className="absolute bg-[#1a237e] w-31 h-8 z-5 top-8 left-6 px-4 uppercase text-yellow-500 text-sm font-bold items-center flex">campus life</div>
         </div>
-        <div className="">
+        <div className="text-gold">
         <p className="text-slate-500 text-sm px-6 font-semibold">June 05, 2026</p>
         <p className="group-hover:text-yellow-500 px-6 text-2xl py-2 text-[#2A247E] font-serif">Zenith Athletics Pavillion: Construction Finalized on Multi-Use Arena</p>
         <p className="line-clamp-5 text-sm text-slate-500 px-6 tracking-wide leading-6">A modern beacon for sports, health sciences, and collegiate tournaments opens next month.</p>
@@ -138,7 +138,7 @@ function News(){
         <div className="">
             <p className="uppercase tracking-wider text-yellow-500 pl">Live Updates</p>
             <p className="text-2xl font-serif uppercase text-[#1a237e]">Collegiate Event Timelines</p>
-            <p className="Tap  to record your participation attendance numbers. Counters update securely inside your browser state flow."></p>
+            <p className="">Tap  to record your participation attendance numbers. Counters update securely inside your browser state flow.</p>
         </div>
 
         </section>

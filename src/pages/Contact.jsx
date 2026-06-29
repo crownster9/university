@@ -10,22 +10,24 @@ function Contact(){
             <section className="pt-10 space-y-10">
                 <main className="relative  main h-lvh bg-center bg-no-repeat  w-full"></main>
                 <div className="absolute inset-0 h-screen mt-10 opacity-90 bg-[#1a237e]"></div>
-                <div className="mb-5 flex items-center gap-2 justify-center text-center -translate-y-130">
+                <div className="absolute -translate-y-20 inset-0 flex items-center gap-2 w-full text-center justify-center  z-10">
                     <div className="h-1 w-16 bg-yellow-500"></div>
                     <span className="text-sm font-bold tracking-widest uppercase text-yellow-500">Reach out to us</span>
                     <div className="h-1 w-16 bg-yellow-500"></div>
                 </div>
-                <div className="absolute flex-col tracking-widest text-5xl font-serif lg:text-6xl gap-2 justify-center items-center text-center inset-x-0 -translate-y-125">Connect with <span className="text-yellow-500"><br/>Our Campus</span></div>
+                <div className="absolute w-full ">
+                <div className="absolute flex-col tracking-widest text-5xl font-serif lg:text-6xl gap-2 justify-center items-center text-center inset-x-0 -translate-y-115">Connect with <span className="text-yellow-500"><br/>Our Campus</span></div>
                 <p className="absolute -translate-y-90 text-center lg:px-50 lg:tracking-widest lg:text-lg flex tracking-wide px-10 mt-5 text-gray-400 justify-center ">
                     Whether you're a prospective student, a global researcher,or  a distinguished alum,
                     our team is here to assist your journey at Crestview University.
                 </p>
+                </div>
             </section>
             <section className="px-5 pb-5 text-start space-y-7">
             <h1 className="uppercase font-semibold text-[#1a237e] tracking-wide text-3xl lg:text-4xl flex ">institutional<br className="lg:hidden"/> directory</h1>
             <div className="flex gap-4">
             <FaMapMarkerAlt size={35} className="border-0 p-2 bg-gray-200"/>
-            <div className="flex-colspace-x-2 font-semibold text-sm ">
+            <div className="flex-col space-x-2 font-semibold text-sm ">
                 <p className="uppercase pb-2 text-yellow-500">
                     main campus
                 </p>
@@ -37,7 +39,7 @@ function Contact(){
             </div>
              <div className="flex gap-4">
             <FaPhoneAlt size={35} className="border-0 p-2 bg-gray-200"/>
-            <div className="flex-colspace-x-2 font-semibold text-sm ">
+            <div className="flex-col space-x-2 font-semibold text-sm ">
                 <p className="uppercase pb-2 text-yellow-500">
                 general enquiries
                 </p>
@@ -49,7 +51,7 @@ function Contact(){
             </div>
              <div className="flex gap-4">
             <FaEnvelope size={35} className="border-0 p-2 bg-gray-200"/>
-            <div className="flex-colspace-x-2 font-semibold text-sm ">
+            <div className="flex-col space-x-2 font-semibold text-sm ">
                 <p className="uppercase pb-2 text-yellow-500">
                     email channels
                 </p>
