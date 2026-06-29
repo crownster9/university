@@ -15,9 +15,9 @@ function Contact(){
                     <span className="text-sm font-bold tracking-widest uppercase text-yellow-500">Reach out to us</span>
                     <div className="h-1 w-16 bg-yellow-500"></div>
                 </div>
-                <div className="absolute w-full ">
-                <div className="absolute flex-col tracking-widest text-5xl font-serif lg:text-6xl gap-2 justify-center items-center text-center inset-x-0 -translate-y-115">Connect with <span className="text-yellow-500"><br/>Our Campus</span></div>
-                <p className="absolute -translate-y-90 text-center lg:px-50 lg:tracking-widest lg:text-lg flex tracking-wide px-10 mt-5 text-gray-400 justify-center ">
+                <div className="absolute inset-0 w-full  ">
+                <div className="absolute translate-y-65 flex-col tracking-widest text-5xl font-serif lg:text-6xl gap-2 justify-center items-center text-center inset-x-0">Connect with <span className="text-yellow-500"><br/>Our Campus</span></div>
+                <p className="absolute translate-y-90 text-center lg:px-50 lg:tracking-widest lg:text-lg flex tracking-wide px-10 mt-5 text-gray-400 justify-center ">
                     Whether you're a prospective student, a global researcher,or  a distinguished alum,
                     our team is here to assist your journey at Crestview University.
                 </p>
